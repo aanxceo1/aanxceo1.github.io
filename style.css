@@ -1,0 +1,48 @@
+/* Reset CSS default margin and padding */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style navigation menu */
+nav ul {
+  list-style: none;
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style main content */
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Style footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
